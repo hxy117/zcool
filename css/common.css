@@ -48,7 +48,6 @@ a {
     width: 1024px;
     margin: auto;
     height: 45px;
-    background-color: rgba(0, 0, 0, .2);
 }
 
 .header-container .logo-container {
@@ -201,4 +200,24 @@ a {
 
 .header-container .search-inner-container .submit-btn:hover {
     background-position: 0 -24px;
+}
+
+.header-container .login-container {
+    display: table;
+    height: 100%;
+}
+
+.header-container .login-container .login-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.header-container .login-container .login-inner-container > b {
+    margin: 0 3px;
+}
+
+.header-container .login-container .login-inner-container > a:hover {
+    text-decoration: underline;
 }
