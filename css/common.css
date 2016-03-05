@@ -1,0 +1,223 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+.f_l {
+    float: left;
+}
+
+.f_r {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.header-container {
+    height: 45px;
+    background-color: rgba(255, 176, 0, 1);
+}
+
+.header-container .header-inner-container {
+    width: 1024px;
+    margin: auto;
+    height: 45px;
+}
+
+.header-container .logo-container {
+    width: 201px;
+    height: 100%;
+}
+
+.header-container .logo-inner-container {
+
+}
+
+.header-container .logo-inner-container .logo-img {
+    width: 121px;
+    height: 45px;
+    background: url("../images/logo.png") no-repeat center;
+}
+
+.header-container .logo-inner-container .logo-gif {
+    width: 80px;
+    height: 45px;
+    background: url("../images/z_app1.gif") no-repeat center;
+}
+
+.header-container .menu-ul-container {
+    height: 100%;
+}
+
+.header-container .menu-ul-container .li-item {
+    height: 45px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+}
+
+.header-container .menu-ul-container .li-item > a {
+    height: 45px;
+    display: block;
+    padding: 0 16px;
+    line-height: 45px;
+}
+
+.header-container .menu-ul-container .li-item > a.selected {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-container .menu-ul-container .li-item:hover > a {
+    background-color: #2d2d2d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-container .menu-ul-container .li-item:hover > a i.triangle-icon {
+    border-top-color: #ababab;
+}
+
+.header-container .menu-ul-container .li-item > a i.triangle-icon {
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    border-color: #8c6000 transparent transparent;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.header-container .menu-ul-container .li-item:hover .sub-menu {
+    display: block;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 45px;
+    background-color: #2d2d2d;
+    overflow: hidden;
+    display: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works {
+    width: 360px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data {
+    width: 110px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works .sub-menu-inner-container {
+    margin-left: -15px;
+    padding: 10px 20px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu .link {
+    color: #ababab;
+    font-size: 12px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works .link {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data .link {
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    padding-left: 16px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu .link:hover {
+    color: #ffba00;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data .link:hover {
+    background-color: #111;
+}
+
+.header-container .search-container {
+    display: table;
+    height: 100%;
+}
+
+.header-container .search-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-container .search-inner-container .input-area {
+    width: 148px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fff;
+    padding: 0 6px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.header-container .search-inner-container .submit-btn {
+    width: 24px;
+    height: 25px;
+    background: url("../images/bs.png") #fff no-repeat 0 0;
+    cursor: pointer;
+}
+
+.header-container .search-inner-container .submit-btn:hover {
+    background-position: 0 -24px;
+}
+
+.header-container .login-container {
+    display: table;
+    height: 100%;
+}
+
+.header-container .login-container .login-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.header-container .login-container .login-inner-container > b {
+    margin: 0 3px;
+}
+
+.header-container .login-container .login-inner-container > a:hover {
+    text-decoration: underline;
+}
