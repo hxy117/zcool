@@ -137,7 +137,7 @@ a {
 }
 
 .header-container .menu-ul-container .li-item .sub-menu-data {
-    width: 120px;
+    width: 110px;
 }
 
 .header-container .menu-ul-container .li-item .sub-menu-works .sub-menu-inner-container {
@@ -170,4 +170,35 @@ a {
 
 .header-container .menu-ul-container .li-item .sub-menu-data .link:hover {
     background-color: #111;
+}
+
+.header-container .search-container {
+    display: table;
+    height: 100%;
+}
+
+.header-container .search-inner-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-container .search-inner-container .input-area {
+    width: 148px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fff;
+    padding: 0 6px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.header-container .search-inner-container .submit-btn {
+    width: 24px;
+    height: 25px;
+    background: url("../images/bs.png") #fff no-repeat 0 0;
+    cursor: pointer;
+}
+
+.header-container .search-inner-container .submit-btn:hover {
+    background-position: 0 -24px;
 }
