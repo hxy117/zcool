@@ -116,3 +116,58 @@ a {
     top: 50%;
     margin-top: -2px;
 }
+
+.header-container .menu-ul-container .li-item:hover .sub-menu {
+    display: block;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 45px;
+    background-color: #2d2d2d;
+    overflow: hidden;
+    display: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works {
+    width: 360px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data {
+    width: 120px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works .sub-menu-inner-container {
+    margin-left: -15px;
+    padding: 10px 20px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu .link {
+    color: #ababab;
+    font-size: 12px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-works .link {
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data .link {
+    height: 34px;
+    line-height: 34px;
+    display: block;
+    padding-left: 16px;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu .link:hover {
+    color: #ffba00;
+}
+
+.header-container .menu-ul-container .li-item .sub-menu-data .link:hover {
+    background-color: #111;
+}
